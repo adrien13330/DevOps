@@ -1,10 +1,9 @@
-A) Ce repository stocke mes fichiers pour le projet 3 d'OpenClassrooms
+A) Ce repository stocke mes fichiers pour le projet 3 d'OpenClassrooms, partie "vagrant"
 
 Etape 0 : Host_Setup.sh, .gitignore, .dockerignore, LICENCE.md, README.txt
 Etape 1 : https://github.com/adrien13330/Projet_03_Adrien
 Etape 2 : Vagrantfile
 Etape 3 : Vagrantfile, bootstrap.sh
-Etape 4 : Dockerfile, docker_commands.sh
 
 B) Mon environnement de travail pour ce projet :
   1. PC
