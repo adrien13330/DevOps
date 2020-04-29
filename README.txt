@@ -5,7 +5,7 @@ Etape 1 : https://github.com/adrien13330/Projet_03_Adrien
 Etape 2 : Vagrantfile
 Etape 3 : Vagrantfile, bootstrap.sh
 
-B) Mon environnement de travail pour ce projet :
+C) Mon environnement de travail pour le projet 3 : PC => VM VMware => VM Vagrant => Docker Container
   1. PC
   - Windows 10
   - i7 4960X
