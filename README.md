@@ -35,8 +35,8 @@ Voici comment les prendre en main :
   1. Depuis l'Hôte
     - Accéder à NGINX par http://172.17.0.1:8080
   2. Depuis la VM Vagrant :
-    - Accéder à NGINX par :
-      - wget -O- localhost:80
-      - wget -O- 172.17.0.2:80
-    - Accéder en SSH au container Docker par :
-      - ssh root@localhost -p 2222
+     - Accéder à NGINX par :
+       - wget -O- localhost:80
+       - wget -O- 172.17.0.2:80
+     - Accéder en SSH au container Docker par :
+       - ssh root@localhost -p 2222
