@@ -19,7 +19,7 @@ Selon besoins de l'Hôte :
   4. Un éditeur de texte : VSCode
   5. Un hyperviseur : Virtualbox
   6. Un outil de création d'environnement pour machines virtuelles : Vagrant
-  7. Les outils Virtualbox permettant le partage de fichiers entre la machine hôte et la machine virtuelle Vagrant
+  7. Les outils Vagrant qui vont permettre le partage de fichiers entre la machine hôte et la machine virtuelle Vagrant
   
 ### Etape 2 : Copier [Vagrantfile](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Vagrantfile) dans l'environnement de travail 
   1. Ce fichier sera lu par Vagrant à l'installation de la VM qui va contenir Docker et son conteneur et permet de l'initialiser
