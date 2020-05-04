@@ -32,10 +32,3 @@ vagrant plugin install vagrant-vbguest
 #Vagrant Bootstrap Setup : Visual Studio Code : See bootstrap.sh
 #Vagrant Bootstrap Setup : Ansible - Latest : See bootstrap.sh
 #Vagrant Bootstrap Setup : Docker CE - Latest : See bootstrap.sh
-
-#Vagrant Config Setup
-vagrant init generic/debian10
-vagrant box add generic/debian10 --provider=virtualbox
-
-#Vagrant Startup
-vagrant up --provider=virtualbox
