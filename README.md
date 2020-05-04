@@ -3,7 +3,7 @@
 ## Ils contiennent les livrables attendus ainsi que les lignes de code nécessaires pour les exécuter.
 Voici comment les prendre en main :
 
-### <u>Etape 1 :</u> Exécuter Host_Setup.sh pour installer sur la machine hôte les prérequis suivants selon besoin :
+### Etape 1 : Exécuter Host_Setup.sh pour installer sur la machine hôte les prérequis suivants selon besoin :
   1. Mettre à jour la machine hôte (Debian 10)
   2. Installer les outils d'intégration VMware (si la machine hôte est une VM VMware neuve)
   3. Un outil de téléchargement en ligne de commande : cURL
@@ -27,9 +27,9 @@ Voici comment les prendre en main :
 ### Etape 5 : Exécuter Vagrant_Setup.sh pour lancer le déploiement de cette VM
  
 ### Etape 6 : Exécuter Docker_Setup.sh une fois dans la VM Vagrant
-  1. Ce script utilise le fichier Dockerfile mentionné à l'étape 3 et permet de personnaliser le conteneur Docker en y ajoutant :
-    - Un outil de connexion à distance par terminal : SSH
-    - Un logiciel de serveur web : NGINX
+  1. Ce script utilise le fichier Dockerfile mentionné à l'étape 3 et permet de personnaliser le conteneur Docker avec :
+     - Un outil de connexion à distance par terminal : SSH
+     - Un logiciel de serveur web : NGINX
   
 ### Reçettage :
   1. Depuis l'Hôte
