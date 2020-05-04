@@ -3,7 +3,7 @@
 ## Ils contiennent les livrables attendus ainsi que les lignes de code nécessaires pour les exécuter.
 Voici comment les prendre en main :
 
-### Etape 1 (selon besoin) : Exécuter Host_Setup.sh pour installer sur la machine hôte les prérequis suivants
+### <u>Etape 1 :</u> Exécuter Host_Setup.sh pour installer sur la machine hôte les prérequis suivants selon besoin :
   1. Mettre à jour la machine hôte (Debian 10)
   2. Installer les outils d'intégration VMware (si la machine hôte est une VM VMware neuve)
   3. Un outil de téléchargement en ligne de commande : cURL
