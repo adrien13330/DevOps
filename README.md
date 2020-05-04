@@ -31,8 +31,7 @@ Voici comment les prendre en main :
     1. Un outil de connexion à distance par terminal : SSH
     2. Un logiciel de serveur web : NGINX
   
- ## Reçettage :
- 
+## Reçettage :
   1. Depuis la VM VMware
     - Accéder à NGINX depuis http://172.17.0.1:8080
   2. Depuis la VM Vagrant
