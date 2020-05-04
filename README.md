@@ -32,7 +32,7 @@ Voici comment les prendre en main :
     - Un logiciel de serveur web : NGINX
   
 ### Reçettage :
-  1. Depuis la VM VMware
+  1. Depuis l'Hôte
     - Accéder à NGINX depuis http://172.17.0.1:8080
   2. Depuis la VM Vagrant
     - Accéder à NGINX par :
