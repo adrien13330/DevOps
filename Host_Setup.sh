@@ -18,8 +18,6 @@ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-
 sudo apt update
 sudo apt install -y virtualbox-6.0
 
-
-
 #Vagrant 2.2.7
 curl https://releases.hashicorp.com/vagrant/2.2.7/vagrant_2.2.7_x86_64.deb --output /home/$USER/Downloads/vagrant-2.2.7.deb
 sudo dpkg -i /home/$USER/Downloads/vagrant-2.2.7.deb
