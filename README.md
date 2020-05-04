@@ -1,4 +1,4 @@
-                                  ![alt text](https://i.imgur.com/V4ObU05.jpg)
+![alt text](https://i.imgur.com/V4ObU05.jpg)
 
 ### Ce Repository ainsi que Projet_03_Adrien_Docker sont conçus pour répondre au projet 3 de la formation d'Expert DevOps d'OpenClassrooms.
 
