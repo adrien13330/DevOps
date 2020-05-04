@@ -17,9 +17,12 @@ Voici comment les prendre en main :
  
 ### Etape 3 : Copier bootstrap.sh dans l'environnement de travail
   1. Ce fichier sera lu par Vagrant au démarrage de cette même VM et permet de la personnaliser en y ajoutant :
-    * Un éditeur de texte : VSCode 
-    * Un environnement de virtualisation : Ansible
-    * Un gestionnaire de conteneurs : Docker
+  
+    - Un éditeur de texte : VSCode
+    
+    - Un environnement de virtualisation : Ansible
+    
+    - Un gestionnaire de conteneurs : Docker
     
 ### Etape 4 : Copier Dockerfile et Docker_Setup.sh dans l'environnement de travail
   1. Ces fichiers seront utilisés ultérieurement dans la VM Vagrant par Docker 
@@ -28,15 +31,15 @@ Voici comment les prendre en main :
  
 ### Etape 6 : Exécuter Docker_Setup.sh une fois dans la VM Vagrant
   1. Ce script utilise le fichier Dockerfile mentionné à l'étape 3 et permet de personnaliser le conteneur Docker en y ajoutant :
-    * Un outil de connexion à distance par terminal : SSH
-    * Un logiciel de serveur web : NGINX
+    - Un outil de connexion à distance par terminal : SSH
+    - Un logiciel de serveur web : NGINX
   
 ### Reçettage :
   1. Depuis la VM VMware
-    * Accéder à NGINX depuis http://172.17.0.1:8080
+    - Accéder à NGINX depuis http://172.17.0.1:8080
   2. Depuis la VM Vagrant
-    * Accéder à NGINX par :
-        * wget -O- localhost:80
-        * wget -O- 172.17.0.2:80
-    * Accéder en SSH au container Docker par :
-        * ssh root@localhost -p 2222
+    - Accéder à NGINX par :
+        - wget -O- localhost:80
+        - wget -O- 172.17.0.2:80
+    - Accéder en SSH au container Docker par :
+        - ssh root@localhost -p 2222
