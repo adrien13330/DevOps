@@ -27,9 +27,9 @@ Voici comment les prendre en main :
 ### Etape 5 : Exécuter Vagrant_Setup.sh pour lancer le déploiement de cette VM
  
 ### Etape 6 : Exécuter Docker_Setup.sh une fois dans la VM Vagrant
-  - Ce script utilise le fichier Dockerfile mentionné à l'étape 3 et permet de personnaliser le conteneur Docker en y ajoutant :
-    1. Un outil de connexion à distance par terminal : SSH
-    2. Un logiciel de serveur web : NGINX
+  1. Ce script utilise le fichier Dockerfile mentionné à l'étape 3 et permet de personnaliser le conteneur Docker en y ajoutant :
+    - Un outil de connexion à distance par terminal : SSH
+    - Un logiciel de serveur web : NGINX
   
 ### Reçettage :
   1. Depuis la VM VMware
