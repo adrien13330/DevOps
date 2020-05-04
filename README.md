@@ -40,7 +40,7 @@ Selon besoins de l'Hôte :
      - Un outil de connexion à distance par terminal : SSH
      - Un logiciel de serveur web : NGINX
   
-### Reçettage :
+### ![Alt Text](https://i.imgur.com/ZJ2h59T.png) Reçettage :
   1. Depuis l'Hôte
      - Accéder à NGINX par http://172.17.0.1:8080
   2. Depuis la VM Vagrant :
