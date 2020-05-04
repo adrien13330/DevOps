@@ -22,13 +22,6 @@ sudo apt install -y virtualbox-6.0
 curl https://releases.hashicorp.com/vagrant/2.2.7/vagrant_2.2.7_x86_64.deb --output /home/$USER/Downloads/vagrant-2.2.7.deb
 sudo dpkg -i /home/$USER/Downloads/vagrant-2.2.7.deb
 
-#Vagrant Root Setup
-mkdir vagrant_projet_3
-cd vagrant_projet_3
-
-#Vagrant Plugin for box generic/debian10
-vagrant plugin install vagrant-vbguest
-
 #Vagrant Bootstrap Setup : Visual Studio Code : See bootstrap.sh
 #Vagrant Bootstrap Setup : Ansible - Latest : See bootstrap.sh
 #Vagrant Bootstrap Setup : Docker CE - Latest : See bootstrap.sh
