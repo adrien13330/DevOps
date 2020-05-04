@@ -1,6 +1,3 @@
-#Vagrant Plugin for box generic/debian10
-vagrant plugin install vagrant-vbguest
-
 #Vagrant Bootstrap Setup: VSCode
 sudo apt -y update
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
