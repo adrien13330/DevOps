@@ -8,7 +8,7 @@
 
 #### Voici comment les prendre en main :
 
-### Etape 1 : Exécuter Host_Setup.sh pour installer sur la machine hôte les prérequis suivants :
+### Etape 1 : Exécuter [Host_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Host_Setup.sh) pour installer sur la machine hôte les prérequis suivants :
 
 Selon besoin :
   1. Mettre à jour la machine hôte (Debian 10)
