@@ -2,8 +2,9 @@
   <img src="https://i.imgur.com/V4ObU05.jpg">
 </p>
 
-#### Ce Repository ainsi que Projet_03_Adrien_Docker sont conçus pour répondre au projet 3 de la formation d'Expert DevOps d'OpenClassrooms.
-
+#### Les Repositories suivants sont conçus pour répondre au projet 3 de la formation d'Expert DevOps d'OpenClassrooms :
+  1. [Projet_03_Adrien_Vagrant](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/)
+  2. [Projet_03_Adrien_Docker](https://github.com/adrien13330/Projet_03_Adrien_Docker/)
 #### Ils contiennent les livrables attendus ainsi que les lignes de code nécessaires pour les exécuter.
 
 #### Voici comment les prendre en main :
