@@ -6,7 +6,9 @@
 
 ### Ils contiennent les livrables attendus ainsi que les lignes de code nécessaires pour les exécuter.
 
-#### Voici comment les prendre en main :
+
+
+### Voici comment les prendre en main :
 
 ### Etape 1 : Exécuter Host_Setup.sh pour installer sur la machine hôte les prérequis suivants :
 
