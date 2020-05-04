@@ -17,12 +17,9 @@ Voici comment les prendre en main :
  
 ### Etape 3 : Copier bootstrap.sh dans l'environnement de travail
   1. Ce fichier sera lu par Vagrant au démarrage de cette même VM et permet de la personnaliser en y ajoutant :
-  
-    - Un éditeur de texte : VSCode
-    
-    - Un environnement de virtualisation : Ansible
-    
-    - Un gestionnaire de conteneurs : Docker
+     - Un éditeur de texte : VSCode
+     - Un environnement de virtualisation : Ansible
+     - Un gestionnaire de conteneurs : Docker
     
 ### Etape 4 : Copier Dockerfile et Docker_Setup.sh dans l'environnement de travail
   1. Ces fichiers seront utilisés ultérieurement dans la VM Vagrant par Docker 
