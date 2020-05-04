@@ -11,4 +11,4 @@ Il contient les livrables attendus ainsi que les lignes de codes nécessaires po
 Voici comment prendre en main ce Repository :
 
 1. Suivre le contenu du fichier Host_Setup.sh pour préparer la machine hôte
-  1. ezsr
+a. ezsr
