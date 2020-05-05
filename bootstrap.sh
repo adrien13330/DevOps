@@ -25,3 +25,4 @@ sudo usermod -aG docker vagrant
 
 cp /vagrant/Docker_Setup.sh .
 cp /vagrant/Dockerfile .
+sudo chmod +x $HOME/Docker_Setup.sh
