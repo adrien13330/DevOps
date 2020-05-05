@@ -14,7 +14,7 @@ Environnement de travail : /Home/$USER/vagrant_projet_3
 
 ### Etape 1 : Exécuter [Host_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Host_Setup.sh) pour installer sur la machine hôte les prérequis suivants :
 
-Selon besoins de l'Hôte :
+En fonction des besoins de l'Hôte :
   1. Mettre à jour la machine hôte (Debian 10)
   2. Installer les outils d'intégration VMware (si la machine hôte est une VM VMware neuve)
   3. Un outil de téléchargement en ligne de commande : cURL
