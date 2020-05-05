@@ -22,16 +22,16 @@ Selon besoins de l'Hôte :
   5. Un hyperviseur : Virtualbox
   6. Un outil de création d'environnement pour machines virtuelles : Vagrant
   7. Les outils Vagrant qui vont permettre le partage de fichiers entre la machine hôte et la machine virtuelle Vagrant
-  
-### Etape 2 : Copier [Vagrantfile](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Vagrantfile) et [Vagrant_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Vagrant_Setup.sh) dans l'environnement de travail 
-  1. Ces fichiers seront lus par Vagrant à l'installation de la VM qui va contenir Docker et son conteneur et permettent de l'initialiser
- 
-### Etape 3 : Copier [bootstrap.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/bootstrap.sh) dans l'environnement de travail
+
+### Etape 2 : Copier [bootstrap.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/bootstrap.sh) dans l'environnement de travail
   1. Ce fichier sera lu par Vagrant au démarrage de cette même VM et permet de la personnaliser en y ajoutant :
      - Un éditeur de texte : VSCode
      - Un environnement de virtualisation : Ansible
      - Un gestionnaire de conteneurs : Docker
-    
+   
+### Etape 3 : Copier [Vagrantfile](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Vagrantfile) et [Vagrant_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Vagrant_Setup.sh) dans l'environnement de travail 
+  1. Ces fichiers seront lus par Vagrant à l'installation de la VM qui va contenir Docker et son conteneur et permettent de l'initialiser
+ 
 ### Etape 4 : Copier [Dockerfile](https://github.com/adrien13330/Projet_03_Adrien_Docker/blob/master/Dockerfile) et [Docker_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Docker/blob/master/Docker_Setup.sh) dans l'environnement de travail
   1. Ces fichiers seront utilisés ultérieurement dans la VM Vagrant par Docker 
  
