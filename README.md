@@ -10,6 +10,8 @@
 
 #### Voici comment les prendre en main :
 
+Environnement de travail : /Home/$USER/vagrant_projet_3
+
 ### Etape 1 : Exécuter [Host_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Host_Setup.sh) pour installer sur la machine hôte les prérequis suivants :
 
 Selon besoins de l'Hôte :
