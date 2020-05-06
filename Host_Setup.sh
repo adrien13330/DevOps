@@ -24,6 +24,3 @@ sudo dpkg -i /home/$USER/Downloads/vagrant-2.2.8.deb
 vagrant plugin install vagrant-vbguest
 mkdir vagrant_projet_3
 cd vagrant_projet_3
-
-# 7. Les outils Vagrant qui vont permettre le partage de fichiers entre la machine hôte et la machine virtuelle Vagrant
-vagrant plugin install vagrant-vbguest
