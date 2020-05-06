@@ -62,15 +62,15 @@ echo 'sudo usermod -aG docker vagrant' >> bootstrap.sh
 echo "" >> bootstrap.sh
 echo "FROM debian:latest" >> bootstrap.sh
 
-# 4.4 Vagrant startup
-
-echo 'vagrant init generic/debian10' >> bootstrap.sh
-echo 'vagrant box add generic/debian10 --provider=virtualbox' >> bootstrap.sh
-echo 'vagrant up' >> bootstrap.sh
-
-# 4.5 Docker startup
+# 4.4 Docker startup
 
 echo 'cp /vagrant/Dockerfile $HOME/.' >> bootstrap.sh
 echo 'docker pull debian' >> bootstrap.sh
 echo 'docker build -t test .' >> bootstrap.sh
 echo 'docker run -d -p 2222:22 -p 80:80 test' >> bootstrap.sh
+
+# 4.5 Vagrant startup
+
+vagrant init generic/debian10
+vagrant box add generic/debian10 --provider=virtualbox
+vagrant up
