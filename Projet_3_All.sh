@@ -71,6 +71,6 @@ echo 'docker run -d -p 2222:22 -p 80:80 test' >> bootstrap.sh
 
 # 4.5 Vagrant startup
 
-vagrant init generic/debian10
+#vagrant init generic/debian10
 vagrant box add generic/debian10 --provider=virtualbox
 vagrant up
