@@ -17,16 +17,15 @@ echo 'end' >> Vagrantfile
 
 # 3. Dockerfile
 
+echo "FROM debian:latest" >> bootstrap.sh
 echo "RUN apt update -y \\" >> Dockerfile
 echo "&& apt install -y openssh-server \\" >> Dockerfile
 echo "&& apt install -y nginx \\" >> Dockerfile
 echo "&& mkdir /var/run/sshd \\" >> Dockerfile
 echo "&& echo 'root:root' | chpasswd \\" >> Dockerfile
 echo "&& echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config" >> Dockerfile
-echo "" >> Dockerfile
 echo 'ENV NOTVISIBLE "in users profile"' >> Dockerfile
 echo 'RUN echo "export VISIBLE=now" >> /etc/profile' >> Dockerfile
-echo "" >> Dockerfile
 echo "EXPOSE 22 80" >> Dockerfile
 echo 'CMD ["/usr/sbin/sshd", "-D"]' >> Dockerfile
 
@@ -59,8 +58,6 @@ echo 'sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linu
 echo 'sudo apt update -y' >> bootstrap.sh
 echo 'sudo apt install -y docker docker-ce docker-ce-cli containerd.io' >> bootstrap.sh
 echo 'sudo usermod -aG docker vagrant' >> bootstrap.sh
-echo "" >> bootstrap.sh
-echo "FROM debian:latest" >> bootstrap.sh
 
 # 4.4 Docker startup
 
