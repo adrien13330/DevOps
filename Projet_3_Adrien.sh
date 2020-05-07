@@ -25,6 +25,7 @@ echo "&& mkdir /var/run/sshd \\" >> Dockerfile
 echo "&& echo 'root:root' | chpasswd \\" >> Dockerfile
 echo "&& echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config" >> Dockerfile
 echo 'ENV NOTVISIBLE "in users profile"' >> Dockerfile
+echo 'COPY /vagrant/Dockerfile .' >> Dockerfile
 echo 'RUN echo "export VISIBLE=now" >> /etc/profile' >> Dockerfile
 echo "EXPOSE 22 80" >> Dockerfile
 echo 'CMD ["/usr/sbin/sshd", "-D"]' >> Dockerfile
@@ -61,7 +62,7 @@ echo 'sudo usermod -aG docker vagrant' >> bootstrap.sh
 
 # 4.4 Docker startup from bootstrap
 
-echo 'cp /vagrant/Dockerfile $HOME/.' >> bootstrap.sh
+#echo 'cp /vagrant/Dockerfile $HOME/.' >> bootstrap.sh
 echo 'docker pull debian' >> bootstrap.sh
 echo 'docker build -t test .' >> bootstrap.sh
 echo 'docker run -d -p 2222:22 -p 80:80 test' >> bootstrap.sh
