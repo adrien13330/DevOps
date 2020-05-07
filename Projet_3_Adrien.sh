@@ -11,7 +11,7 @@ echo '  config.vm.synced_folder "", "/vagrant"' >> Vagrantfile
 echo '  config.vm.provision :shell, path: "bootstrap.sh"' >> Vagrantfile
 echo '  config.vm.network "forwarded_port", guest: 80, host: 8080' >> Vagrantfile
 echo '  config.vm.provider "virtualbox" do |v|' >> Vagrantfile
-echo '  config.vm.provision "file", source: "Dockerfile", destination: "$HOME/*"
+echo '  config.vm.provision "file", source: "Dockerfile", destination: "$HOME/*"' >> Vagrantfile
 echo '    v.memory = 4096' >> Vagrantfile
 echo '  end' >> Vagrantfile
 echo 'end' >> Vagrantfile
