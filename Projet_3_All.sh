@@ -59,7 +59,7 @@ echo 'sudo apt update -y' >> bootstrap.sh
 echo 'sudo apt install -y docker docker-ce docker-ce-cli containerd.io' >> bootstrap.sh
 echo 'sudo usermod -aG docker vagrant' >> bootstrap.sh
 
-# 4.4 Docker startup
+# 4.4 Docker startup from bootstrap
 
 echo 'cp /vagrant/Dockerfile $HOME/.' >> bootstrap.sh
 echo 'docker pull debian' >> bootstrap.sh
