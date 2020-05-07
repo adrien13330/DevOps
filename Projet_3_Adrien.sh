@@ -11,13 +11,14 @@ echo '  config.vm.synced_folder "", "/vagrant"' >> Vagrantfile
 echo '  config.vm.provision :shell, path: "bootstrap.sh"' >> Vagrantfile
 echo '  config.vm.network "forwarded_port", guest: 80, host: 8080' >> Vagrantfile
 echo '  config.vm.provider "virtualbox" do |v|' >> Vagrantfile
+echo '  config.vm.provision "file", source: "Dockerfile", destination: "$HOME/*"
 echo '    v.memory = 4096' >> Vagrantfile
 echo '  end' >> Vagrantfile
 echo 'end' >> Vagrantfile
 
 # 3. Dockerfile
 
-echo "FROM debian:latest" >> bootstrap.sh
+echo "FROM debian:latest" >> Dockerfile
 echo "RUN apt update -y \\" >> Dockerfile
 echo "&& apt install -y openssh-server \\" >> Dockerfile
 echo "&& apt install -y nginx \\" >> Dockerfile
@@ -25,7 +26,6 @@ echo "&& mkdir /var/run/sshd \\" >> Dockerfile
 echo "&& echo 'root:root' | chpasswd \\" >> Dockerfile
 echo "&& echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config" >> Dockerfile
 echo 'ENV NOTVISIBLE "in users profile"' >> Dockerfile
-echo 'COPY /vagrant/Dockerfile .' >> Dockerfile
 echo 'RUN echo "export VISIBLE=now" >> /etc/profile' >> Dockerfile
 echo "EXPOSE 22 80" >> Dockerfile
 echo 'CMD ["/usr/sbin/sshd", "-D"]' >> Dockerfile
