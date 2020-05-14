@@ -60,4 +60,6 @@ echo 'docker run -dit -p 80:80 test' >> bootstrap.sh
 vagrant up
 
 # Test Docker nginx
+
+vagrant ssh
 curl 172.17.0.2
