@@ -61,4 +61,4 @@ vagrant up
 
 # Test Docker nginx
 
-firefox 172.17.0.2
+firefox 172.17.0.1
