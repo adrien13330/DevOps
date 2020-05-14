@@ -55,7 +55,7 @@ echo 'docker pull debian' >> bootstrap.sh
 echo 'docker build -t test .' >> bootstrap.sh
 echo 'docker run -dit -p 80:80 test' >> bootstrap.sh
 
-# 4.5 Vagrant startup
+# 5 Vagrant startup
 
 vagrant box add generic/debian10 --provider=virtualbox
 vagrant up
