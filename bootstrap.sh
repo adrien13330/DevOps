@@ -22,7 +22,3 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debi
 sudo apt update -y
 sudo apt install -y docker docker-ce docker-ce-cli containerd.io
 sudo usermod -aG docker vagrant
-
-cp /vagrant/Docker_Setup.sh .
-cp /vagrant/Dockerfile .
-sudo chmod +x $HOME/Docker_Setup.sh
