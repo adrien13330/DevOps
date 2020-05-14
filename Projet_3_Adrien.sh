@@ -20,7 +20,7 @@ echo 'end' >> Vagrantfile
 
 echo "FROM debian:10" >> Dockerfile
 echo "RUN apt update -y \\" >> Dockerfile
-echo "&& apt install -y nginx \\" >> Dockerfile
+echo "&& apt install -y nginx" >> Dockerfile
 echo "EXPOSE 22 80" >> Dockerfile
 echo 'CMD ["nginx", "-g", "daemon off;"]' >> Dockerfile
 
