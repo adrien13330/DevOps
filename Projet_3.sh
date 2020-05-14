@@ -57,7 +57,6 @@ echo 'docker run -dit -p 80:80 test' >> bootstrap.sh
 
 # 5 Vagrant startup
 
-vagrant box add generic/debian10 --provider=virtualbox
 vagrant up
 
 # Test Docker nginx
