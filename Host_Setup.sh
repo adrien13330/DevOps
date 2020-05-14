@@ -22,5 +22,8 @@ sudo apt install -y virtualbox-6.0
 curl https://releases.hashicorp.com/vagrant/2.2.9/vagrant_2.2.9_x86_64.deb --output /home/$USER/Downloads/vagrant-2.2.9.deb
 sudo dpkg -i /home/$USER/Downloads/vagrant-2.2.9.deb
 vagrant plugin install vagrant-vbguest
+
+# 6.1 Pour cet exercice : une box Debian 10
+vagrant box add generic/debian10 --provider=virtualbox
 mkdir vagrant_projet_3
 cd vagrant_projet_3
