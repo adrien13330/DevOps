@@ -18,7 +18,7 @@ echo 'end' >> Vagrantfile
 
 # 3. Dockerfile
 
-echo "FROM debian:latest" >> Dockerfile
+echo "FROM debian:10" >> Dockerfile
 echo "RUN apt update -y \\" >> Dockerfile
 echo "&& apt install -y nginx \\" >> Dockerfile
 echo "EXPOSE 22 80" >> Dockerfile
