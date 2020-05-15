@@ -25,5 +25,3 @@ vagrant plugin install vagrant-vbguest
 
 # 6.1 Pour cet exercice : une box Debian 10
 vagrant box add generic/debian10 --provider=virtualbox
-mkdir vagrant_projet_3
-cd vagrant_projet_3
