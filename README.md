@@ -23,13 +23,13 @@ En fonction des besoins de l'Hôte :
   1. Rendre ce script exécutable par la commande suivante :
      - sudo chmod +x Projet_03.sh
   2. L'exécuter ensuite par la commande suivante :
-         ./Projet03.sh
+     > ./Projet03.sh
   2. Ce fichier va :
      - Générer un Vagrantfile, fichier d'instructions pour la VM
      - Générer un bootstrap.sh qui ajoutera :
           - Un éditeur de texte : VSCode
           - Un environnement de virtualisation : Ansible
-          - Un gestionnaire de conteneurs : Docker    
+          - Un gestionnaire de conteneurs : Docker CE 
           - Générer un Dockerfile, fichier d'instructions pour le Docker container, qui ajoutera :
             - Le logiciel de serveur NGINX
             - Le mappage des ports 22 et 80
