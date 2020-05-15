@@ -25,8 +25,8 @@ En fonction des besoins de l'Hôte :
   2. L'exécuter ensuite par la commande suivante :
          ./Projet03.sh
   2. Ce fichier va :
-     a. Générer un Vagrantfile, fichier d'instructions pour la VM
-     b. Générer un bootstrap.sh qui ajoutera :
+     - Générer un Vagrantfile, fichier d'instructions pour la VM
+     - Générer un bootstrap.sh qui ajoutera :
           - Un éditeur de texte : VSCode
           - Un environnement de virtualisation : Ansible
           - Un gestionnaire de conteneurs : Docker    
