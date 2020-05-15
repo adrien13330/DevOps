@@ -38,9 +38,9 @@ En fonction des besoins de l'Hôte :
 ### Etape 5 : Exécuter Vagrant_Setup.sh pour lancer le déploiement de cette VM
  
 ### Etape 6 : Exécuter Docker_Setup.sh une fois dans la VM Vagrant
-  1. Ce script utilise le fichier Dockerfile mentionné à l'étape 3 et permet de personnaliser le conteneur Docker avec :
-     - Un outil de connexion à distance par terminal : SSH
+  1. Ce script utilise le fichier Dockerfile mentionné à l'étape 3 et permet de personnaliser le conteneur Docker à l'aide de :
      - Un logiciel de serveur web : NGINX
+     - L'ouverture des ports 22 et 80
   
 ### ![Alt Text](https://i.imgur.com/U0GPAaw.png) Reçettage :
   1. Depuis l'Hôte :
@@ -49,5 +49,5 @@ En fonction des besoins de l'Hôte :
      - Accéder à NGINX par :
        - wget -O- localhost:80
        - wget -O- 172.17.0.2:80
-     - Accéder en SSH au container Docker par :
+     - Le container serait accessible en SSH s'il était installé par :
        - ssh root@localhost -p 2222
