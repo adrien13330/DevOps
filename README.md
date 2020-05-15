@@ -21,7 +21,7 @@ En fonction des besoins de l'Hôte :
 
 ### Etape 2 : Copier [Projet_03.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Projet_3.sh) dans l'environnement de travail (/home/$USER/)
   1. Rendre ce script exécutable par la commande suivante :
-     - sudo chmod +x Projet_03.sh
+     > sudo chmod +x Projet_03.sh
   2. L'exécuter ensuite par la commande suivante :
      > ./Projet03.sh
   2. Ce fichier va :
@@ -39,7 +39,7 @@ En fonction des besoins de l'Hôte :
      - Accéder à NGINX par http://172.17.0.1:8080
   2. Depuis la VM Vagrant :
      - Accéder à NGINX par :
-       - curl localhost:80
-       - curl 172.17.0.2:80
+       > curl localhost:80
+       > curl 172.17.0.2:80
      - Le container serait accessible en SSH s'il était installé :
-       - ssh root@localhost -p 2222
+       > ssh root@localhost -p 2222
