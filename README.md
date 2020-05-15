@@ -30,7 +30,7 @@ En fonction des besoins de l'Hôte :
           - Un éditeur de texte : VSCode
           - Un environnement de virtualisation : Ansible
           - Un gestionnaire de conteneurs : Docker CE
-          - Générer un Dockerfile, fichier d'instructions pour le Docker container, qui ajoutera le logiciel de serveur NGINX
+          - Générer un Dockerfile, fichier d'instructions pour le container, qui ajoutera le logiciel de serveur NGINX
   
 ### ![Alt Text](https://i.imgur.com/U0GPAaw.png) Reçettage :
   1. Depuis l'Hôte :
@@ -39,5 +39,4 @@ En fonction des besoins de l'Hôte :
      - Accéder à NGINX par :
        > curl localhost:80
        > curl 172.17.0.2:80
-     - Le container serait accessible en SSH s'il était installé :
-       > ssh root@localhost -p 2222
+  3. Depuis la VM Vagrant, le container serait accessible par le port 2222 en SSH si celui-ci était installé
