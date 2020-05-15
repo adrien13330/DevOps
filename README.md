@@ -30,7 +30,7 @@ En fonction des besoins de l'Hôte :
           - Un éditeur de texte : VSCode
           - Un environnement de virtualisation : Ansible
           - Un gestionnaire de conteneurs : Docker CE
-          - Générer un Dockerfile, fichier d'instructions pour le container, qui ajoutera le logiciel de serveur NGINX
+          - Un Dockerfile, fichier d'instructions pour le container, qui ajoutera le logiciel de serveur NGINX
   
 ### ![Alt Text](https://i.imgur.com/U0GPAaw.png) Reçettage :
   1. Depuis l'Hôte :
