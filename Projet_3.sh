@@ -50,10 +50,8 @@ echo 'sudo usermod -aG docker vagrant' >> bootstrap.sh
 
 # 4.5 Vagrant Bootstrap Docker startup
 
-#echo 'cp /vagrant/Dockerfile /home/vagrant/Dockerfile' >> bootstrap.sh
-echo 'cd /vagrant/' >> bootstrap.sh
 echo 'docker pull debian' >> bootstrap.sh
-echo 'docker build -t test .' >> bootstrap.sh
+echo 'docker build -t test /vagrant/.' >> bootstrap.sh
 echo 'docker run -dit -p 80:80 test' >> bootstrap.sh
 
 # 5 Vagrant startup
