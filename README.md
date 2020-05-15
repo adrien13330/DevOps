@@ -28,12 +28,10 @@ En fonction des besoins de l'Hôte :
      a. Générer un Vagrantfile
      b. Générer un bootstrap.sh
         - Ce fichier sera lu par Vagrant au démarrage de la VM et permet de la personnaliser en y ajoutant :
-          i. Un éditeur de texte : VSCode
-          
-          ii. Un environnement de virtualisation : Ansible
-          
-          iii. Un gestionnaire de conteneurs : Docker
-          
+        
+         i. Un éditeur de texte : VSCode
+         ii. Un environnement de virtualisation : Ansible
+         iii. Un gestionnaire de conteneurs : Docker    
      c. Générer un Dockerfile
   
 ### ![Alt Text](https://i.imgur.com/U0GPAaw.png) Reçettage :
