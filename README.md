@@ -39,4 +39,4 @@ En fonction des besoins de l'Hôte :
      - Accéder à NGINX par :
        > curl localhost:80
        > curl 172.17.0.2:80
-  3. Depuis la VM Vagrant, le container serait accessible par le port 2222 en SSH si celui-ci était installé
+  3. Depuis la VM Vagrant, le container serait accessible par le port 2222 en SSH si celui-ci était présent
