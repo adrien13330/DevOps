@@ -19,9 +19,9 @@ En fonction des besoins de l'Hôte :
   6. Un outil de création d'environnement pour machines virtuelles : Vagrant
      - Et pour cet exercice : une box Debian 10 pour Vagrant
 
-### Etape 2 : Copier [Projet_03.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Projet_3.sh) dans l'environnement de travail (/home/$USER/)
+### Etape 2 : Copier [oc_projet_03.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/oc_projet_3.sh) dans l'environnement de travail (/home/$USER/)
   1. Rendre ce script exécutable par la commande suivante :
-     > sudo chmod +x Projet_03.sh
+     > sudo chmod +x oc_projet_03.sh
   2. L'exécuter ensuite par la commande suivante :
      > ./Projet03.sh
   2. Ce fichier va :
