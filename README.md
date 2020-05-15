@@ -29,10 +29,8 @@ En fonction des besoins de l'Hôte :
      - Générer un bootstrap.sh qui ajoutera :
           - Un éditeur de texte : VSCode
           - Un environnement de virtualisation : Ansible
-          - Un gestionnaire de conteneurs : Docker CE 
-          - Générer un Dockerfile, fichier d'instructions pour le Docker container, qui ajoutera :
-            - Le logiciel de serveur NGINX
-            - Le mappage des ports 22 et 80
+          - Un gestionnaire de conteneurs : Docker CE
+          - Générer un Dockerfile, fichier d'instructions pour le Docker container, qui ajoutera le logiciel de serveur NGINX
   
 ### ![Alt Text](https://i.imgur.com/U0GPAaw.png) Reçettage :
   1. Depuis l'Hôte :
