@@ -23,7 +23,7 @@ En fonction des besoins de l'Hôte :
   1. Rendre ce script exécutable par la commande suivante :
      > sudo chmod +x oc_projet_03.sh
   2. L'exécuter ensuite par la commande suivante :
-     > ./Projet03.sh
+     > ./oc_projet03.sh
   2. Ce fichier va :
      - Générer un Vagrantfile, fichier d'instructions pour la VM
      - Générer un bootstrap.sh qui ajoutera :
