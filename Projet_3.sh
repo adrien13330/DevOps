@@ -54,10 +54,10 @@ echo 'docker pull debian' >> bootstrap.sh
 echo 'docker build -t test /vagrant/.' >> bootstrap.sh
 echo 'docker run -dit -p 2222:22 -p 80:80 test' >> bootstrap.sh
 
-# 5 Vagrant startup
+# 5. Vagrant startup
 
 vagrant up
 
-# Test Docker nginx
+# 6. Test Docker nginx
 
 firefox 172.17.0.1:8080
