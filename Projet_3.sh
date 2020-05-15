@@ -52,7 +52,7 @@ echo 'sudo usermod -aG docker vagrant' >> bootstrap.sh
 
 echo 'docker pull debian' >> bootstrap.sh
 echo 'docker build -t test /vagrant/.' >> bootstrap.sh
-echo 'docker run -dit -p 80:80 test' >> bootstrap.sh
+echo 'docker run -dit -p 2222:22 -p 80:80 test' >> bootstrap.sh
 
 # 5 Vagrant startup
 
