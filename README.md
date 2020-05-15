@@ -23,15 +23,14 @@ En fonction des besoins de l'Hôte :
   1. Rendre ce script exécutable par la commande suivante :
      - sudo chmod +x Projet_03.sh
   2. L'exécuter ensuite par la commande suivante :
-     - ./Projet03.sh
+         ./Projet03.sh
   2. Ce fichier va :
      a. Générer un Vagrantfile
      b. Générer un bootstrap.sh
         - Ce fichier sera lu par Vagrant au démarrage de la VM et permet de la personnaliser en y ajoutant :
-        
-         i. Un éditeur de texte : VSCode
-         ii. Un environnement de virtualisation : Ansible
-         iii. Un gestionnaire de conteneurs : Docker    
+          - Un éditeur de texte : VSCode
+          - Un environnement de virtualisation : Ansible
+          - Un gestionnaire de conteneurs : Docker    
      c. Générer un Dockerfile
   
 ### ![Alt Text](https://i.imgur.com/U0GPAaw.png) Reçettage :
