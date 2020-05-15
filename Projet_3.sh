@@ -1,7 +1,7 @@
 # 1. Host machine environment setup
 
-mkdir /home/$USER/Projet_3
-cd /home/$USER/Projet_3
+mkdir /home/$USER/oc_projet_3
+cd /home/$USER/oc_projet_3
 
 # 2. Vagrantfile
 
@@ -54,8 +54,8 @@ echo 'sudo usermod -aG docker vagrant' >> bootstrap.sh
 # 4.5 Vagrant Bootstrap Docker CE: Startup
 
 echo 'docker pull debian' >> bootstrap.sh
-echo 'docker build -t projet_03 /vagrant/.' >> bootstrap.sh
-echo 'docker run -dit -p 2222:22 -p 80:80 projet_03' >> bootstrap.sh
+echo 'docker build -t oc_projet_03 /vagrant/.' >> bootstrap.sh
+echo 'docker run -dit -p 2222:22 -p 80:80 oc_projet_03' >> bootstrap.sh
 
 # 5. Vagrant startup
 
