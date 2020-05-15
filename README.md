@@ -8,7 +8,7 @@
   - [Projet_03_Adrien_Docker](https://github.com/adrien13330/Projet_03_Adrien_Docker/)
 #### Ils contiennent les livrables attendus ([Vagrantfile](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Vagrantfile), [Dockerfile](https://github.com/adrien13330/Projet_03_Adrien_Docker/blob/master/Dockerfile)) ainsi que les lignes de code nécessaires pour les exécuter.
 
-### Etape 1 : Exécuter tout ou partie de [Host_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Host_Setup.sh) pour installer sur la machine hôte les prérequis suivants :
+### Etape 1 : Exécuter tout ou partie de [Host_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Host_Setup.sh) pour installer sur la machine hôte ce prérequis :
 
 En fonction des besoins de l'Hôte :
   1. Mettre à jour la machine hôte (Debian 10)
