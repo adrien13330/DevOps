@@ -63,6 +63,6 @@ vagrant up
 
 # 6. Test Docker nginx
 
-if ! [ -x "$(command -v firefox)" ]; then
+if [ -x "$(command -v firefox)" ]; then
   firefox 172.17.0.1:8080
 fi
