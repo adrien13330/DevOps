@@ -1,7 +1,7 @@
 # 1. Host machine environment setup
 
-mkdir /home/$USER/vagrant_projet_3
-cd /home/$USER/vagrant_projet_3
+mkdir /home/$USER/Projet_3
+cd /home/$USER/Projet_3
 
 # 2. Vagrantfile
 
