@@ -21,6 +21,7 @@ En fonction des besoins de l'Hôte :
   4. Un éditeur de texte : VSCode
   5. Un hyperviseur : Virtualbox
   6. Un outil de création d'environnement pour machines virtuelles : Vagrant
+     - Et pour cet exercice : une box Debian 10 pour Vagrant
 
 ### Etape 2 : Copier [bootstrap.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/bootstrap.sh) dans l'environnement de travail
   1. Ce fichier sera lu par Vagrant au démarrage de cette même VM et permet de la personnaliser en y ajoutant :
