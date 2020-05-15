@@ -8,10 +8,6 @@
   - [Projet_03_Adrien_Docker](https://github.com/adrien13330/Projet_03_Adrien_Docker/)
 #### Ils contiennent les livrables attendus ([Vagrantfile](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Vagrantfile), [Dockerfile](https://github.com/adrien13330/Projet_03_Adrien_Docker/blob/master/Dockerfile)) ainsi que les lignes de code nécessaires pour les exécuter.
 
-#### Voici comment les prendre en main :
-
-Environnement de travail : /Home/$USER/vagrant_projet_3
-
 ### Etape 1 : Exécuter tout ou partie de [Host_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Host_Setup.sh) pour installer sur la machine hôte les prérequis suivants :
 
 En fonction des besoins de l'Hôte :
@@ -23,24 +19,19 @@ En fonction des besoins de l'Hôte :
   6. Un outil de création d'environnement pour machines virtuelles : Vagrant
      - Et pour cet exercice : une box Debian 10 pour Vagrant
 
-### Etape 2 : Copier [bootstrap.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/bootstrap.sh) dans l'environnement de travail
-  1. Ce fichier sera lu par Vagrant au démarrage de cette même VM et permet de la personnaliser en y ajoutant :
-     - Un éditeur de texte : VSCode
-     - Un environnement de virtualisation : Ansible
-     - Un gestionnaire de conteneurs : Docker
-   
-### Etape 3 : Copier [Vagrantfile](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Vagrantfile) et [Vagrant_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Vagrant_Setup.sh) dans l'environnement de travail 
-  1. Ces fichiers seront lus par Vagrant à l'installation de la VM qui va contenir Docker et son conteneur et permettent de l'initialiser
- 
-### Etape 4 : Copier [Dockerfile](https://github.com/adrien13330/Projet_03_Adrien_Docker/blob/master/Dockerfile) et [Docker_Setup.sh](https://github.com/adrien13330/Projet_03_Adrien_Docker/blob/master/Docker_Setup.sh) dans l'environnement de travail
-  1. Ces fichiers seront utilisés ultérieurement dans la VM Vagrant par Docker 
- 
-### Etape 5 : Exécuter Vagrant_Setup.sh pour lancer le déploiement de cette VM
- 
-### Etape 6 : Exécuter Docker_Setup.sh une fois dans la VM Vagrant
-  1. Ce script utilise le Dockerfile et permet de personnaliser le conteneur Docker à l'aide de :
-     - Un logiciel de serveur web : NGINX
-     - L'ouverture des ports 22 et 80
+### Etape 2 : Copier [Projet_03.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Projet_3.sh) dans l'environnement de travail (/home/$USER/)
+  1. Rendre ce script exécutable par la commande suivante :
+     - sudo chmod +x Projet_03.sh
+  2. L'exécuter ensuite par la commande suivante :
+     - ./Projet03.sh
+  2. Ce fichier va :
+     - Générer un Vagrantfile
+     - Générer un bootstrap.sh
+       - Ce fichier sera lu par Vagrant au démarrage de la VM et permet de la personnaliser en y ajoutant :
+         - Un éditeur de texte : VSCode
+         - Un environnement de virtualisation : Ansible
+         - Un gestionnaire de conteneurs : Docker
+     - Générer un Dockerfile
   
 ### ![Alt Text](https://i.imgur.com/U0GPAaw.png) Reçettage :
   1. Depuis l'Hôte :
