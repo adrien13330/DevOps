@@ -27,7 +27,7 @@ sudo apt install -y docker docker-ce docker-ce-cli containerd.io
 
 sudo usermod -aG docker vagrant
 docker pull debian
-docker build -t Projet_03 /vagrant/.
-docker run -dit -p 2222:22 -p 80:80 Projet_03
+docker build -t oc_projet_03 /vagrant/.
+docker run -dit -p 2222:22 -p 80:80 oc_projet_03
 
 
