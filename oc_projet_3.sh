@@ -57,7 +57,7 @@ echo 'docker pull debian' >> bootstrap.sh
 echo 'docker build -t oc_projet_03 /vagrant/.' >> bootstrap.sh
 echo 'docker run -dit -p 2222:22 -p 80:80 oc_projet_03' >> bootstrap.sh
 
-# 5. Vagrant startup
+# 5. Vagrant boot
 
 vagrant up
 
