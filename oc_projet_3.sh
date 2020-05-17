@@ -1,6 +1,7 @@
 # 1. Host machine environment setup
 
-cd /home/$USER
+mkdir /home/$USER/oc_projet_03
+cd /home/$USER/oc_projet_03
 
 # 2. Vagrantfile
 
