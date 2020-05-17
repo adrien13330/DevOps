@@ -60,9 +60,3 @@ echo 'docker run -dit -p 2222:22 -p 80:80 oc_projet_03' >> bootstrap.sh
 # 5. Vagrant up
 
 vagrant up
-
-# 6. Test Docker nginx
-
-if [ -x "$(command -v firefox)" ]; then
-  firefox 172.17.0.1:8080 & kill -INT $$
-fi
