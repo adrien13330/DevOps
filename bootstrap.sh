@@ -23,7 +23,7 @@ sudo apt install -y code
 sudo apt install -y ansible
 sudo apt install -y docker docker-ce docker-ce-cli containerd.io
 
-#Vagrant Bootstrap Docker CE: Boot
+#Vagrant Bootstrap Docker CE: Run
 
 sudo usermod -aG docker vagrant
 docker pull debian

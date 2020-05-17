@@ -51,13 +51,13 @@ echo 'sudo apt install -y ansible' >> bootstrap.sh
 echo 'sudo apt install -y docker docker-ce docker-ce-cli containerd.io' >> bootstrap.sh
 echo 'sudo usermod -aG docker vagrant' >> bootstrap.sh
 
-# 4.5 Vagrant Bootstrap Docker CE: Startup
+# 4.5 Vagrant Bootstrap Docker CE: Run
 
 echo 'docker pull debian' >> bootstrap.sh
 echo 'docker build -t oc_projet_03 /vagrant/.' >> bootstrap.sh
 echo 'docker run -dit -p 2222:22 -p 80:80 oc_projet_03' >> bootstrap.sh
 
-# 5. Vagrant boot
+# 5. Vagrant up
 
 vagrant up
 
