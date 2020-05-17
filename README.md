@@ -12,11 +12,10 @@
 
 En fonction des besoins de l'Hôte :
   1. Mettre à jour la machine hôte (Debian 10)
-  2. Installer les outils d'intégration VMware (si la machine hôte est une VM VMware neuve)
-  3. Un outil de téléchargement en ligne de commande : cURL
-  4. Un éditeur de texte : VSCode
-  5. Un hyperviseur : Virtualbox
-  6. Un outil de création d'environnement pour machines virtuelles : Vagrant
+  2. Un outil de téléchargement en ligne de commande : cURL
+  3. Un éditeur de texte : VSCode
+  4. Un hyperviseur : Virtualbox
+  5. Un outil de création d'environnement pour machines virtuelles : Vagrant
      - Et pour cet exercice : une box Debian 10 pour Vagrant
 
 ### Etape 2 : Copier [oc_projet_03.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/oc_projet_3.sh) dans l'environnement de travail (/home/$USER/)
