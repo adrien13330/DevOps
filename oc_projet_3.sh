@@ -1,6 +1,6 @@
 # 1. Host machine environment setup
 
-cd /home/$USER/Projet_03_Adrien_Vagrant
+cd /home/$USER
 
 # 2. Vagrantfile
 
