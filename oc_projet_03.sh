@@ -8,12 +8,12 @@ cd $prod_env
 
 # 2. Vagrant
 
-curl https://raw.githubusercontent.com/adrien13330/Projet_03_Adrien_Vagrant/master/Vagrantfile --output Vagrantfile
-curl https://raw.githubusercontent.com/adrien13330/Projet_03_Adrien_Vagrant/master/bootstrap.sh --output bootstrap.sh
+curl https://raw.githubusercontent.com/adrien13330/Projet_03_Adrien_Vagrant/master/Vagrantfile -so Vagrantfile
+curl https://raw.githubusercontent.com/adrien13330/Projet_03_Adrien_Vagrant/master/bootstrap.sh -so bootstrap.sh
 
 # 3. Docker
 
-curl https://raw.githubusercontent.com/adrien13330/Projet_03_Adrien_Docker/master/Dockerfile --output Dockerfile
+curl https://raw.githubusercontent.com/adrien13330/Projet_03_Adrien_Docker/master/Dockerfile -so Dockerfile
 
 # 4. Vagrant up
 
