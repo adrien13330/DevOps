@@ -9,8 +9,8 @@ sudo apt install -y curl
 
 # 3. Un éditeur de texte : VSCode
 
-curl https://az764295.vo.msecnd.net/stable/ff915844119ce9485abfe8aa9076ec76b5300ddd/code_1.44.2-1587059832_amd64.deb --output /home/$USER/Downloads/code.deb
-sudo dpkg -i /home/$USER/Downloads/code.deb
+curl https://az764295.vo.msecnd.net/stable/ff915844119ce9485abfe8aa9076ec76b5300ddd/code_1.44.2-1587059832_amd64.deb --output $HOME/Downloads/code.deb
+sudo dpkg -i $HOME/Downloads/code.deb
 
 # 4. Un hyperviseur : Virtualbox
 
@@ -21,8 +21,8 @@ sudo apt install -y virtualbox-6.0
 
 # 5. Un outil de création d'environnement pour machines virtuelles : Vagrant
 
-curl https://releases.hashicorp.com/vagrant/2.2.9/vagrant_2.2.9_x86_64.deb --output /home/$USER/Downloads/vagrant-2.2.9.deb
-sudo dpkg -i /home/$USER/Downloads/vagrant-2.2.9.deb
+curl https://releases.hashicorp.com/vagrant/2.2.9/vagrant_2.2.9_x86_64.deb --output $HOME/Downloads/vagrant-2.2.9.deb
+sudo dpkg -i $HOME/Downloads/vagrant-2.2.9.deb
 vagrant plugin install vagrant-vbguest
 
 # 5.1 Pour cet exercice : une box Debian 10
