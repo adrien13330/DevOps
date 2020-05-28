@@ -18,18 +18,16 @@ En fonction des besoins de l'Hôte :
   5. Un outil de création d'environnement pour machines virtuelles : Vagrant
      - Et pour cet exercice : une box Debian 10 pour Vagrant
 
-### Etape 2 : Cloner les deux repositories
-  1. Si besoin, rendre le script suivant exécutable : [oc_projet_03.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/Host_Setup.sh)
-     > sudo chmod +x oc_projet_03.sh
-  2. L'exécuter :
-     > ./oc_projet03.sh
+### Etape 2 : Démarrer
+  1. Télécharger et exécuter le fichier suivant : [oc_projet_03.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/oc_projet_03.sh)
+     > bash <(curl https://raw.githubusercontent.com/adrien13330/Projet_03_Adrien_Vagrant/master/oc_projet_03.sh)
   2. Ce fichier va :
-     - Générer un Vagrantfile, fichier d'instructions pour la VM
-     - Générer un bootstrap.sh qui ajoutera :
-          - Un éditeur de texte : VSCode
-          - Un environnement de virtualisation : Ansible
+     - Télécharger un Vagrantfile, fichier d'instructions pour la VM
+     - Télécharger un bootstrap.sh qui téléchargera :
+          - Un éditeur de texte : Nice Editor
+          - Un gestionnaire d'environnement : Ansible
           - Un gestionnaire de conteneurs : Docker CE
-          - Un Dockerfile, fichier d'instructions pour le container, qui ajoutera le logiciel de serveur web NGINX
+          - Un Dockerfile, fichier d'instructions Docker pour le container, qui ajoutera le logiciel de serveur web NGINX
   
 ### ![Alt Text](https://i.imgur.com/U0GPAaw.png) Reçettage :
   1. Depuis l'Hôte :
