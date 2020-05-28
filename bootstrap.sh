@@ -23,5 +23,3 @@ docker pull debian
 curl https://raw.githubusercontent.com/adrien13330/Projet_03_Adrien_Docker/master/Dockerfile -so Dockerfile
 docker build -t oc_projet_03 .
 docker run -dit -p 2222:22 -p 80:80 oc_projet_03
-
-
