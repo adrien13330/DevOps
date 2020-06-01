@@ -13,4 +13,4 @@ curl https://raw.githubusercontent.com/adrien13330/Projet_03_Adrien_Vagrant/mast
 
 # 3. Vagrant up
 
-vagrant up
+vagrant up --provider=virtualbox
