@@ -35,5 +35,3 @@ En fonction des besoins de l'Hôte :
   2. Depuis la VM Vagrant :
      > curl 172.17.0.2:80
   3. Depuis la VM Vagrant, le container serait accessible par le port 2222 en SSH si celui-ci était présent
-
-Test
