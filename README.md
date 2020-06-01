@@ -23,7 +23,7 @@ En fonction des besoins de l'Hôte :
      > bash <(curl https://raw.githubusercontent.com/adrien13330/Projet_03_Adrien_Vagrant/master/oc_projet_03.sh)
   2. Ce fichier va :
      - Télécharger un Vagrantfile, fichier d'instructions pour la VM
-     - Télécharger un bootstrap.sh qui téléchargera :
+     - Télécharger un [bootstrap.sh](https://github.com/adrien13330/Projet_03_Adrien_Vagrant/blob/master/bootstrap.sh) qui téléchargera :
           - Un éditeur de texte : Nice Editor
           - Un gestionnaire d'environnement : Ansible
           - Un gestionnaire de conteneurs : Docker CE
