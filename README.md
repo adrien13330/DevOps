@@ -31,7 +31,7 @@ En fonction des besoins de l'Hôte :
   
 ### ![Alt Text](https://i.imgur.com/U0GPAaw.png) Reçettage :
   1. Depuis l'Hôte :
-     > http://172.17.0.1:8080
+     > http://127.0.0.1:8080
   2. Depuis la VM Vagrant :
      > curl 172.17.0.2:80
   3. Depuis la VM Vagrant, le container serait accessible par le port 2222 en SSH si celui-ci était présent
