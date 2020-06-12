@@ -1,3 +1,5 @@
+## Projet 03
+
 # 1. Mettre à jour la machine hôte (Debian 10)
 
 sudo apt -y update
@@ -24,7 +26,7 @@ sudo apt install -y virtualbox-6.1
 curl https://releases.hashicorp.com/vagrant/2.2.9/vagrant_2.2.9_x86_64.deb --output $HOME/vagrant-2.2.9.deb
 sudo dpkg -i $HOME/vagrant-2.2.9.deb
 
-# 5.1 Pour cet exercice : une box Debian 10
+# 5.1 Une box Debian 10
 
 vagrant box add generic/debian10 --provider=virtualbox
 
@@ -34,7 +36,9 @@ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent softwa
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
-# 6. Projet 04 : Docker Compose
+## Projet 04
+
+# 1. Docker Compose
 
 sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
